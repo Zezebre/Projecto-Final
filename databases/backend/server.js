@@ -10,7 +10,7 @@ const mysql = require("mysql2/promise");
 // INJETAR VARIAVEIS DE AMBIENTE
 require("dotenv").config();
 //para ir ao FrontEnd
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "frontend")));
  
 app.use(express.json());
  
